@@ -18,10 +18,10 @@ def ensureUtf(s):
 class TwitterClient():
 
     def __init__(self, consumer_key, consumer_secret, access_token, access_token_secret):
-        self.consumer_key = "Sc4rmZap7AeT8oab3ClS3EJrZ"
-        self.consumer_secret = "Lzj3jyRgbisQEztuMEV4KYZEN2j88IK9llXMccI89bRqNEB8x9"
-        self.access_token = "1211906574-4JX1Ur02Qd6fwmgvtl8aX7wHNFzHTDLde1TpcHU"
-        self.access_token_secret = "j4OMr95yVHIki9Kt0AyZor8tq3i1tR72Zvpk0LebJlCgd"
+        self.consumer_key = 
+        self.consumer_secret = 
+        self.access_token = 
+        self.access_token_secret = 
 
         self.auth = tweepy.OAuthHandler(self.consumer_key, self.consumer_secret)
         self.auth.set_access_token(self.access_token, self.access_token_secret)
